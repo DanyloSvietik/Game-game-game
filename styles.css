@@ -1,0 +1,33 @@
+body {
+    font-family: Open Sans, sans-serif;
+    color: rgb(127, 255, 168);
+}
+
+/*.list-item:nth-child(7) {
+    background-color: rgb(21, 0, 255);
+} */
+
+/*.list-item:nth-child(2n) {
+    background-color: orange;
+} */
+
+/* Аналогично используя псевдоним */
+/*.list-item:nth-child(even) {
+    background-color: orange;
+} */
+
+.list {
+    list-style: none;
+}
+
+.list-item:nth-child(n + 6) {
+    background-color: rgb(0, 21, 255);
+}
+
+.list-item:nth-child(-n + 5) {
+    background-color: orange;
+}
+
+.list-item:nth-child(3n + 1) {
+    background-color: rgb(214, 27, 158);
+}
